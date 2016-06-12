@@ -1,0 +1,585 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.09"></RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/scrollView"
+            android:layout_weight="0.91">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05">
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="0.15"></RelativeLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="0.85">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.35">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="正確答案："
+                                    android:id="@+id/textView6"
+                                    android:textColor="#eb9b9e"
+                                    android:textSize="20dip" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.55">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/mulAns"
+                                    android:textSize="20dip"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentStart="true" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"></RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dip">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"></RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/missionAnswerDetail"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"></RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dip"
+                    android:id="@+id/divline1up"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:id="@+id/divideline1">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"></RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9"
+                        android:background="#eb9b9e"></RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"></RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dip"
+                    android:id="@+id/divline1down">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1074dip">
+
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="240dip">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.35">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.2">
+
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.7">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="店家資訊"
+                                            android:id="@+id/textView11"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_centerHorizontal="true"
+                                            android:textSize="20dip"
+                                            android:gravity="center"
+                                            android:textColor="#eb9b9e" />
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.3">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageView3"
+                                            android:src="@drawable/pinkstar" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.8">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/storeName" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.55">
+
+
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+
+                                    android:id="@+id/ShopInfoImg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+
+                                    android:layout_marginLeft="24dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_marginStart="24dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:id="@+id/divline3up"
+                            android:layout_height="10dip"
+                            ></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dip"
+                            android:id="@+id/divideline3"
+                            >
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.9"
+                                android:background="#eb9b9e"></RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.15"></RelativeLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.7">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.3"></RelativeLayout>
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.6">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/storeAddress"
+                                        android:layout_gravity="center_horizontal" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/storePhone"
+                                        android:layout_gravity="center_horizontal" />
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.3">
+
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.15"></RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:id="@+id/divline3down"
+                            android:layout_height="10dip"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="160dip">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.2">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="販售"
+                                    android:id="@+id/sale"
+                                    android:textSize="20dip"
+                                    android:textColor="#eb9b9e" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.7">
+
+                                <RelativeLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.1"></RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:id="@+id/productviewlayout"
+                                        android:background="@drawable/latout_bg"
+                                        >
+
+                                        <RelativeLayout
+                                            android:layout_width="0dip"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.05"></RelativeLayout>
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="0dip"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.9">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dip"
+                                                android:layout_weight="0.05"></RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dip"
+                                                android:layout_weight="0.95">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:id="@+id/storeproductview" />
+                                            </RelativeLayout>
+                                        </LinearLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="0dip"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.05"></RelativeLayout>
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.1"></RelativeLayout>
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dip"
+                            android:id="@+id/divline2up"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dip"
+                            android:id="@+id/divideline2"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.9"
+                                android:background="#eb9b9e"></RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05"></RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dip"
+                            android:id="@+id/divline2down"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="340dip"
+                            android:background="@drawable/b9">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"></RelativeLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.05"></RelativeLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.2">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="介紹"
+                                        android:id="@+id/textView9"
+
+                                        android:textSize="20dip"
+                                        android:textColor="#fefcfc"
+                                        android:background="@drawable/layout_info" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="0.75">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="土魠魚羹是台南眾多傳統小吃裡，另一項「吃不完」的小吃，吃不完的還有牛肉湯、鱔魚意麵，虱目魚到還好，到處都有。而說到台南的土魠魚羹，就要提到昔時府城油湯業2大高手之一的鄭忠枝，另一人則為創立蝦仁肉圓的蘇松。如今兩人的後代、親戚，分別以這2道小吃，在台南開花結果，洐生出了許多兄弟親戚店。鄭忠枝育有5男5女。在日本時代，便在大菜市附近擺攤，而後1933年日本人在淺草商店街後方搭建露台將攤販集中管理時時便已進駐，跟後來江水號、羊肉湯、阿瑞意麵為同時期老店。"
+                                        android:id="@+id/textView19" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"></RelativeLayout>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dip"></RelativeLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dip">
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.4"></RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.4">
+
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="前往下任務吧"
+                                    android:id="@+id/goNextMission"
+                                    android:gravity="center_vertical|center_horizontal" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.4"></RelativeLayout>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/missionaccomplish"
+            android:title="已完成任務" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/shopinfo"
+            android:title="店家資訊" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/discount"
+            android:title="商品折扣" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/picshare"
+            android:title="照片分享" />
+    </group>
+
+    <item android:title="帳號設定">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享到臉書" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="登出" />
+        </menu>
+    </item>
+
+</menu>
