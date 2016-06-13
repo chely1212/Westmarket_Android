@@ -1,0 +1,89 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <!--progress bar-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:id="@+id/progress_two"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:rcMax="10"
+            app:rcProgress="5"
+            app:rcSecondaryProgress="7.5" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_progress_two_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decrease"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_progress_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_progress_two_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/increase"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+               />
+        </LinearLayout>
+    </LinearLayout>
+    <!--progress bar-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:id="@+id/main_button"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/showOutput"
+        android:layout_below="@+id/main_button"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
